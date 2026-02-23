@@ -6,7 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # --- CONFIGURATION ---
-st.set_page_config(page_title="Gluca-AI | Diabetes Diagnostic", page_icon="🩺", layout="wide")
+st.set_page_config(page_title="Diabetes Detector | Diabetes Diagnostic", page_icon="🩺", layout="wide")
 
 # Custom CSS for a professional medical look
 st.markdown("""
