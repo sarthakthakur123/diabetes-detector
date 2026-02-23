@@ -34,7 +34,7 @@ page = st.sidebar.selectbox("Navigation", ["Dashboard", "Medical Diagnosis", "Da
 
 # --- PAGE 1: DASHBOARD ---
 if page == "Dashboard":
-    st.title("🩺 Gluca-AI Diagnostic Suite")
+    st.title("🩺 Diabetes Detector")
     st.info("Welcome to the Clinical Diabetes Prediction System. This tool uses Advanced Gradient Boosting (XGBoost) to identify diabetic risks with 99%+ clinical accuracy.")
     
     col1, col2, col3 = st.columns(3)
